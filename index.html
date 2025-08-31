@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title></title> <!-- titolo vuoto -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden; /* niente scroll orizzontale */
+      scroll-behavior: smooth; /* scroll fluido */
+      background-color: #fff;
+    }
+
+    /* Effetto "snap" verticale tra le pagine */
+    body {
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+    }
+
+    .page {
+      width: 100vw;       /* larghezza finestra */
+      height: 100vh;      /* altezza finestra */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      scroll-snap-align: start; /* ogni pagina si “blocca” allo scroll */
+    }
+
+    .page img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain; /* mantiene proporzioni senza tagliare */
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <img src="HOME.png" alt="Pagina 1">
+  </div>
+  <div class="page">
+    <img src="AZIENDA.png" alt="Pagina 2">
+  </div>
+  <div class="page">
+    <img src="3.png" alt="Pagina 3">
+  </div>
+  <div class="page">
+    <img src="4.png" alt="Pagina 4">
+  </div>
+   <div class="page">
+    <img src="DIARIO DI BORDO.png" alt="Pagina 5">
+  </div>
+   <div class="page">
+    <img src="6.png" alt="Pagina 6">
+  </div>
+   <div class="page">
+    <img src="7.png" alt="Pagina 7">
+  </div>
+   <div class="page">
+    <img src="8.png" alt="Pagina 8">
+  </div>
+   <div class="page">
+    <img src="9.png" alt="Pagina 9">
+  </div>
+   <div class="page">
+    <img src="10.png" alt="Pagina 10">
+  </div>
+   <div class="page">
+    <img src="11.png" alt="Pagina 11">
+  </div>
+   <div class="page">
+    <img src="12.png" alt="Pagina 12">
+  </div>
+    <div class="page">
+    <img src="13.png" alt="Pagina 13">
+  </div>
+    <div class="page">
+    <img src="VIDEO.png" alt="Pagina 14">
+  </div>
+    <div class="page">
+    <img src="VALUTAZIONE ESPERIENZA.png" alt="Pagina 15">
+  </div>
+    <div class="page">
+    <img src="16.png" alt="Pagina 16">
+  </div>
+
+</body>
+</html>
